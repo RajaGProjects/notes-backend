@@ -1,4 +1,5 @@
 const express = require('express') // importing express
+require('dotenv').config()
 const app = express() // create an express application
 const cors = require('cors') // Used cors package to remove (CORS)Cross-origin resource sharing Error
 const port = 5000 // define a port
